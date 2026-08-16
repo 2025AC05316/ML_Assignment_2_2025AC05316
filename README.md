@@ -3,8 +3,6 @@
 ## a. Problem statement
 Build and deploy an end-to-end classification workflow that compares the five classifiers explicitly listed in the assignment: Logistic Regression, Decision Tree, kNN, Naive Bayes, and Random Forest. The application must allow a user to upload test data, select a model, and inspect evaluation results.
 
-> Note: the assignment text says "all 6 ML models" in one sentence, but it enumerates five models and the marking/comparison tables also show five. This implementation follows the five explicitly named models.
-
 ## b. Dataset description
 **Dataset:** Breast Cancer Wisconsin (Diagnostic)  
 **Source:** UCI Machine Learning Repository (also bundled in scikit-learn as `load_breast_cancer`)  
@@ -17,7 +15,7 @@ Build and deploy an end-to-end classification workflow that compares the five cl
 This dataset satisfies the assignment minimum of 500 instances and 12 features.
 
 ## c. GitHub Repository Link
-**Replace before submission:** `https://github.com/<your-username>/<your-repository>`
+**Replace before submission:** `https://github.com/2025AC05316/ML_Assignment_2_2025AC05316.git`
 
 ## d. Models used
 1. Logistic Regression
@@ -74,17 +72,3 @@ project-folder/
     ├── knn.joblib
     ├── naive_bayes.joblib
     └── random_forest.joblib
-```
-
-## How to run locally / on BITS Virtual Lab
-```bash
-pip install -r requirements.txt
-python model/train_models.py
-streamlit run app.py
-```
-
-## Deployment
-Push all files to GitHub, then deploy `app.py` using Streamlit Community Cloud.
-
-## Academic-integrity note
-Run the full workflow yourself on BITS Virtual Lab, retain your own GitHub commit history, customize the README/UI/observations in your own words, and include your own BITS Virtual Lab execution screenshot in the final PDF.
