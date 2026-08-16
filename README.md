@@ -15,7 +15,7 @@ Build and deploy an end-to-end classification workflow that compares the five cl
 This dataset satisfies the assignment minimum of 500 instances and 12 features.
 
 ## c. GitHub Repository Link
-**Replace before submission:** `https://github.com/2025AC05316/ML_Assignment_2_2025AC05316.git`
+`https://github.com/2025AC05316/ML_Assignment_2_2025AC05316.git`
 
 ## d. Models used
 1. Logistic Regression
@@ -46,7 +46,8 @@ This dataset satisfies the assignment minimum of 500 instances and 12 features.
 | Overall Winner for this dataset | **Logistic Regression**, selected by highest MCC while also considering accuracy/AUC. |
 
 ## Streamlit application
-**Replace before submission:** `https://<your-app-name>.streamlit.app`
+
+`https://ml-assignment-2-2025ac05316-2025ac05316.streamlit.app/`
 
 The app provides:
 - CSV test-data upload
